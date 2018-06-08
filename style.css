@@ -68,8 +68,7 @@ body
 	padding: 0%;
 	margin: 1% 0;
 	width: 100%;
-	background-color: #f4fcff;
-	border: 1px solid #999999;
+	background-color: #d1f3ff;
 	-webkit-border-radius: 25px 0px 25px 0px;
 	border-radius: 25px 0px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
@@ -92,17 +91,16 @@ div.element
 	overflow-y: scroll;
 	margin: 1%;
 	padding: 0%;
-	background-color: #f4fcff;
-	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
+	background-color: #d1f3ff;
+	border-radius: 25px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
-	opacity: 0.8;
+	opacity: 0.75;
 }
 
 div.element:nth-child(odd){
 	float: right;
+	border-radius: 25px;
 }
 
 div.element img
@@ -111,8 +109,7 @@ div.element img
 	float: right;
 	width: 40%;
 	margin: 5%;
-	border: 1px solid #000;
-	padding: 5px 5px 20px 5px;
+	padding: 5px 5px 5px 5px;
 	transform:rotate(7deg);
 	-ms-transform:rotate(7deg); /* IE 9 */
 	-moz-transform:rotate(7deg); /* Firefox */
@@ -129,6 +126,10 @@ p
 h2,h3
 {
 	text-align: center;
+}
+
+h2 a,h3 a {
+	color: #1c3964;
 }
 
 #footer
