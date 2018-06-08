@@ -59,11 +59,11 @@ body
 	border-right: 1px solid #fff;
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background: #101010; }
 
 #edito
 {
-	height: 400px;
+	min-height: 200px;
 	float: left;
 	padding: 0%;
 	margin: 1% 0;
@@ -135,13 +135,10 @@ h2 a,h3 a {
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: rgb(71, 71, 71);
+	color: white;
 	text-align: left;
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
-	background-image: url('bas.jpg');
-	background-repeat: no-repeat;
-	background-size: cover ;
-	background-position:center; 
 }
