@@ -20,12 +20,9 @@ body
 {
 	margin: 0;
 	padding: 20px;
-	background: #ccc;
+	background: #202020;
 	height:50px;
-	background-image: url('haut.jpg');
-	background-repeat: no-repeat;
-	background-size: cover ;
-	background-position:center; 
+	color: #fff;
 }
 
 #header h1 { margin: 0; }
@@ -68,9 +65,8 @@ body
 	padding: 0%;
 	margin: 1% 0;
 	width: 100%;
-	background-color: #d1f3ff;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
+	background-color: #8d8d8d;
+	border-radius: 25px;
 	-webkit-box-shadow: 5px 3px 3px #0a182e;
 	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.8;
